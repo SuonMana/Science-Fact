@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: darkcyan;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+h3{
+    text-align: center;
+}
+
+.frame {
+    width: 100px;
+    height: 100px;
+    
+    animation: changeshape 2s linear infinite;
+}
+
+@keyframe changeshape {
+    from {
+        font-size: 0;
+    }
+
+    to {
+        font-size:50%;
+    }
+}
+
+.section-title {
+    color:white;
+    text-align: center;
+    border-bottom: 5px solid white;
+    width: fit-content;
+    margin: 10px auto;
+}
+
+.animal-card {
+    text-align: center;
+    height: 300px;
+    width: 45%;
+    background-color:none;
+    margin: 10px auto;
+    padding: 10px;
+    border: 2px solid white;
+    display: inline-block;
+    
+}
+
+.animal-card img {
+    height: 50%;
+    object-fit:cover;
+    border-radius: 5px;
+}
+
+.books {
+    text-align: center;
+    height: 300px;
+    width: 90%;
+    background-color:none;
+    margin: 10px auto;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 5px;
+    
+    
+}
+
+.books img {
+    height: 50%;
+    object-fit:cover;
+    border-radius: 5px;
+}
+
+
+.feedback-section{
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+.contact {
+    width: 80%;
+    margin: 0 auto;
+    padding: 8px;
+}
+
+.row {
+    width: 100%;
+    
+}
+
+label, input, textarea {
+    width: 100%;
+    display: inline-block;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.send-btn{
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+    padding: 10px;
+    background: none;
+    border: 2px solid white;
+    border-radius:15px;
+}
+
+footer {
+    text-align: center;
+}
